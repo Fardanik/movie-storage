@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    width: 30%;
+    margin-top: 12px;
+    background-image: url(./рк.png);
+}
+
+.search {
+    width: 30%;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.movie-list{
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-item{
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 32px;
+}
+
+.movie-item img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.3);
+}
+
+.movie-item h1{
+    font-size: 16px;
+    padding: 8px;
+}
+
+.movie-item p {
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 54px;
+    margin: 32px 0;
+}
+
+.links a{
+    font-size: 12px;
+    padding: 12px 5px;
+    background-color: darkblue;
+    text-decoration: none;
+    margin-right: 16px;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+.links a:visited{
+    color: white;
+}
+
+.links{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.movie {
+    display: flex;
+}
+
+.movie img{
+    width: 400px;
+    margin-top: 50px;
+}
+
+img:hover {
+    transition: 1.2s;
+    transform: scale(1.05);
+}
+
+.movie-text {
+    width: 400px;
+    padding: 36px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.movie-text h1 {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.movie-text h4 {
+    opacity: 0.5;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.form input {
+    flex: 1;
+    height: 32px;
+    padding: 0 12px;
+    outline: none;
+    margin-top: 12px;
+    border-top-left-radius: 6px;
+}
+
+.form button {
+    width: 120px;
+    margin-top: 13px;
+    border-top-right-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 24px 0;
+}
